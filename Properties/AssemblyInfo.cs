@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("WinSparkle.Net")]
-[assembly: AssemblyDescription(".NET wrapper for x86/x64 https://github.com/vslavik/winsparkle")]
+[assembly: AssemblyDescription(".NET wrapper for x86/x64 WinSparkle(https://github.com/vslavik/winsparkle).  Project sources - https://bitbucket.org/Xab3r/winsparkle.net/overview")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Xab3r")]
 [assembly: AssemblyProduct("WinSparkle.Net")]
