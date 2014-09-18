@@ -9,7 +9,7 @@ namespace WinSparkle.Net
 
         public WinSparkle64()
         {
-            ResourcesHelper.GetResourcesBytes(WinSparkleDllName);
+            ResourcesHelper.LoadLibraryFromResources(WinSparkleDllName);
         }
 
         /// <summary>

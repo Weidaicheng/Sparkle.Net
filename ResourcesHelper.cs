@@ -41,7 +41,7 @@ namespace WinSparkle.Net
         /// </summary>
         /// <param name="_resourceName"></param>
         /// <returns></returns>
-        public static byte[] GetResourcesBytes(string _resourceName)
+        static byte[] GetResourcesBytes(string _resourceName)
         {
             if (String.IsNullOrEmpty(_resourceName))
             {
