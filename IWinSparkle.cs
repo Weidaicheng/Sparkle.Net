@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace WinSparkle.Net
+namespace WinSparkleDotNet
 {
     internal interface IWinSparkle
     {

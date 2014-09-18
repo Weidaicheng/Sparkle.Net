@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace WinSparkle.Net
+namespace WinSparkleDotNet
 {
     /// <summary>
     ///   WinSparkle wrapper

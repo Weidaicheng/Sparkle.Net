@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.InteropServices;
 
-namespace WinSparkle.Net
+namespace WinSparkleDotNet
 {
     class WinSparkle64 : IWinSparkle
     {

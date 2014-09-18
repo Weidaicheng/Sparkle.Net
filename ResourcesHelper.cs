@@ -4,7 +4,7 @@ using System.IO;
 using System.Reflection;
 using System.Runtime.InteropServices;
 
-namespace WinSparkle.Net
+namespace WinSparkleDotNet
 {
     internal static class ResourcesHelper
     {
