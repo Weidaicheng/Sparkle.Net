@@ -100,5 +100,3 @@ namespace WinSparkle.Net
         bool AutomaticCheckForUpdates { get; set; }
     }
 }
-
-}

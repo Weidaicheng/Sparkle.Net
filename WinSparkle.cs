@@ -157,5 +157,19 @@ namespace WinSparkle.Net
                 m_instance.AutomaticCheckForUpdates = value;
             }
         }
+
+        /// <summary>
+        /// Returns a string that represents the current object.
+        /// </summary>
+        /// <returns>
+        /// A string that represents the current object.
+        /// </returns>
+        public override string ToString()
+        {
+            return String.Format(
+                "[WinSparkle] AutomaticCheckForUpdates: {0}, PollingInterval: {1}",
+                m_instance.AutomaticCheckForUpdates,
+                m_instance.UpdateInterval);
+        }
     }
 }
