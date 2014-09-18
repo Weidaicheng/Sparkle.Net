@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Sparkle.Net")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("WinSparkle.Net")]
+[assembly: AssemblyDescription(".NET wrapper for x86/x64 https://github.com/vslavik/winsparkle")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Microsoft")]
-[assembly: AssemblyProduct("Sparkle.Net")]
-[assembly: AssemblyCopyright("Copyright © Microsoft 2014")]
+[assembly: AssemblyCompany("Xab3r")]
+[assembly: AssemblyProduct("WinSparkle.Net")]
+[assembly: AssemblyCopyright("© 2014")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
