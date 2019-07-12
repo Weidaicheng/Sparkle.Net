@@ -3,7 +3,7 @@ using System.Runtime.InteropServices;
 
 namespace WinSparkleDotNet
 {
-    class WinSparkle64 : IWinSparkle
+    internal class WinSparkle64 : IWinSparkle
     {
         public const string WinSparkleDllName = "WinSparkle64.dll";
 

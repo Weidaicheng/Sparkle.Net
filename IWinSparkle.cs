@@ -2,7 +2,7 @@
 
 namespace WinSparkleDotNet
 {
-    internal interface IWinSparkle
+    public interface IWinSparkle
     {
         /// <summary>
         ///    Starts WinSparkle.
