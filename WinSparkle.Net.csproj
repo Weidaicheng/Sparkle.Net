@@ -6,13 +6,16 @@
 
   <ItemGroup>
     <None Remove="WinSparkle32.dll" />
-    <Content Include="WinSparkle32.dll">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <None Remove="WinSparkle64.dll" />
-    <Content Include="WinSparkle64.dll">
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="WinSparkle32.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinSparkle64.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
   </ItemGroup>
 
 </Project>
