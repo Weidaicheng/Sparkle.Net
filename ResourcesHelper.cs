@@ -48,11 +48,11 @@ namespace WinSparkleDotNet
                 throw new ArgumentNullException("_resourceName");
             }
 
-            var assemblyNamespace = typeof(ResourcesHelper).Namespace;
+            var assemblyName = typeof(ResourcesHelper).Assembly.GetName().Name;
 
-            if (assemblyNamespace != null && !_resourceName.StartsWith(assemblyNamespace + "."))
+            if (assemblyName != null && !_resourceName.StartsWith(assemblyName + "."))
             {
-                _resourceName = String.Format("{0}.{1}", assemblyNamespace, _resourceName);
+                _resourceName = String.Format("{0}.{1}", assemblyName, _resourceName);
             }
 
             var resources = m_thisAssembly.GetManifestResourceNames();
